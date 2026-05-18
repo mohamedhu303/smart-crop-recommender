@@ -1,0 +1,19 @@
+/* styles.css — Global styles */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0a0f1e;
+  color: #e2e8f0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] { -moz-appearance: textfield; }
+
+* { scroll-behavior: smooth; }
