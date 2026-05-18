@@ -51,7 +51,7 @@ export interface CropPredictionResult {
 @Injectable({ providedIn: 'root' })
 export class AgriApiService {
   // Base URL — must match the port from dotnet run output
-  private readonly baseUrl = 'http://localhost:5284/api';
+  private readonly baseUrl = 'http://smart-crop-recommender.runasp.net';
 
   private http = inject(HttpClient);
 
