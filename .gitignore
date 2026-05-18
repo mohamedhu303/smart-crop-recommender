@@ -7,3 +7,21 @@ obj/
 *.log
 appsettings.Development.json
 publish/
+
+# Angular / Node
+node_modules/
+.angular/
+dist/
+
+# Editor
+.vscode/
+.vs/
+
+# .NET
+bin/
+obj/
+
+# Logs / system
+*.log
+Thumbs.db
+.DS_Store
